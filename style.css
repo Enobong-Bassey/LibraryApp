@@ -1,0 +1,132 @@
+/* dashboard styling begins here */
+.row.dashboard#upperSection,
+.row.bookadmin#upperSection {
+    margin-top: 180px;
+}
+
+#formHeading {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#formHeadingLine {
+    margin: 0;
+    padding: 0;
+}
+
+#upperLeftDash, #upperRightDash {
+    height: 35vh;
+}
+
+#upperLeftBookAdmin, #upperRightBookAdmin {
+    height: 45vh;
+}
+
+#upperLeftBookAdmin {
+    background-color: #D6EAF8;
+    /* border-top: 0.5px solid lightslategray;
+    border-left: 0.5px solid lightslategray;
+    border-bottom: 0.5px solid lightslategray; */
+    border-right: 2px solid lightslategray;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 1.7em;
+}
+
+#upperRightBookAdmin {
+    border-top: 0.5px solid lightslategray;
+    border-right: 0.5px solid lightslategray;
+    border-bottom: 0.5px solid lightslategray;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 1.7em;
+}
+
+.container#bookRecords {
+    margin-top: 40px;
+    padding: 25px;
+}
+
+#lowerLeftDash, #lowerMidDash, #lowerRightDash {
+    height: 25vh;
+}
+
+#createProfileBtn, #updateProfileBtn {
+    margin-left: 30px;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    text-align: right;
+}
+
+.row#profileCreate, .row#profileUpdate {
+    padding: 1.5em;
+    margin-top: 0.05em;
+}
+
+#statBoxLeft, #statBoxMid, #statBoxRight {
+    border-radius: 15px;
+    min-height: 50px;
+    padding: 20px;
+}
+
+#statBoxLeft {
+    background-color: darkblue;
+    color: white;
+}
+
+#statBoxMid {
+    background-color: darkgreen;
+    color: white;
+}
+
+#statBoxRight {
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+#resetProfile {
+    margin-top: 15px;
+}
+
+#profileLbl {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+#lowerSection {
+    margin-top: 20px;
+}
+
+#picsPosition {
+    border: 0.5px solid #333;
+    margin: 1.1em;
+    background-color: beige;
+    width: 150px;
+    height: 150px;
+}
+
+img#memberPhotoCard {
+    border-radius: 20px;
+    border: 0.5px solid darkblue;
+    margin: 1.5em;
+}
+
+#LegalName {
+    color: darkblue;
+    font-family: 'Questrial', sans-serif;
+    font-size: 26px;
+    margin-left: 1.0em;
+}
+
+/* dashboard styling ends here */
+
+@media screen and (max-width: 600px) {
+    #lowerSection {
+        margin-top: 150px;
+    }
+}
